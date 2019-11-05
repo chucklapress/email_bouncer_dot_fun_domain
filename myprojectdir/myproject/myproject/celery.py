@@ -58,7 +58,7 @@ def send_email():
           print('Email was sent')
       if removed: print( "Removed: ", ", ".join (removed))
       before = after
- This runs the system parser function which moves and parser the files in Maildir and places the results in processed
+#This runs the system parser function which moves and parser the files in Maildir and places the results in processed
 # Now it adds the functionality of storing processed/newest into postgres table
 @app.task()
 def run_parser_new():
