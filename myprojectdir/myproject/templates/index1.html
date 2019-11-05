@@ -1,0 +1,22 @@
+<html>
+<br>
+<br>
+<h3>Here are your results</h3>
+
+{% for item in line %}
+<br>
+<p>Utilizing Chucks Awesome email bouncer we examined the following Domain: {{item.domain}}</p>
+<br>
+<p>We obtained the domain from the following address: {{item.address}}</p>
+<br>
+<p>The email that you sent at {{item.time_parsed}} with the subject line {{item.subject}}</p>
+<br>
+<p>You sent this email to: {{item.return_from}}, and the results of our scan</p>
+<br>
+<p>... wait for it. results are: {{item.the_dmarc_record}}</p>
+<br>
+<p>Thanks so much for utilizing our awesome tool.</p>
+
+ {% endfor %}
+
+</html>
