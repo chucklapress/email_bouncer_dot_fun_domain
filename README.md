@@ -23,7 +23,7 @@ You will need to start the Celery worker with the assigned task send_email and u
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
--- HTML email is currently a hot mess so be fore-warned to either heavily modify it or use the plain text virgin
+-- HTML email is currently a hot mess so be fore-warned to either heavily modify it or use the plain text version.
 
 ## Improvements
 Once the email server is up and running it is strongly suggested that the following are added to utilize the full functionality of the application
